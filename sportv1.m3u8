@@ -3,7 +3,7 @@
 #--Created with VSPP Streamer version 7.3.0.2 build  Commit_id: e9608d29550e2c049c392b6b42416f678085e22f Commit_time: 1629209367 context HGNDJAAAHIHBIFDG-OJOKAAAAHIHBIFDG
 #-----------------------------------------------------------
 #EXT-X-VERSION:5
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="AACL",NAME="audio_483_eng",LANGUAGE="eng",AUTOSELECT=YES,DEFAULT=NO,URI="https://vspp.online.go.oi.com.br/shls/LIVE$SPOHDOI/index.m3u8/S!dzFpb3MSA1T-....ATahGD2f/Alter-audio_483_eng(483)?start=LIVE&end=END"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="AACL",NAME="audio_483_eng",LANGUAGE="eng",AUTOSELECT=YES,DEFAULT=NO,URI="https://vspp.online.go.oi.com.br/shls/LIVE$SPOHDOI/index.m3u8/S!dzFpb3MSA1T-....ATahGD2f/Alter-audio_482_por(482)?start=LIVE&end=END"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="AACL",NAME="audio_482_por",LANGUAGE="por",AUTOSELECT=YES,DEFAULT=YES,URI="https://vspp.online.go.oi.com.br/shls/LIVE$SPOHDOI/index.m3u8/S!dzFpb3MSA1T-....ATahGD2f/Alter-audio_482_por(482)?start=LIVE&end=END"
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=300000,CODECS="mp4a.40.2,avc1.4d0029",RESOLUTION=320x180,AUDIO="AACL"
 https://vspp.online.go.oi.com.br/shls/LIVE$SPOHDOI/index.m3u8/S!dzFpb3MSA1T-....ATahGD2f/Level(300000)?start=LIVE&end=END
