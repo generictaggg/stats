@@ -1,0 +1,19 @@
+#EXTM3U
+#EXT-X-VERSION:3
+## Created with Unified Streaming Platform (version=1.11.14-26090)
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=923000,AVERAGE-BANDWIDTH=839000,CODECS="mp4a.40.2,avc1.4D401E",RESOLUTION=768x432,FRAME-RATE=25
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000-video_track=700000.m3u8?vbegin=1670070300
+#EXT-X-STREAM-INF:BANDWIDTH=1273000,AVERAGE-BANDWIDTH=1157000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=768x432,FRAME-RATE=25
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000-video_track=1000000.m3u8?vbegin=1670070300
+#EXT-X-STREAM-INF:BANDWIDTH=3022000,AVERAGE-BANDWIDTH=2747000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=960x540,FRAME-RATE=25
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000-video_track=2500000.m3u8?vbegin=1670070300
+#EXT-X-STREAM-INF:BANDWIDTH=4771000,AVERAGE-BANDWIDTH=4337000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=1280x720,FRAME-RATE=25
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000-video_track=4000000.m3u8?vbegin=1670070300
+#EXT-X-STREAM-INF:BANDWIDTH=7103000,AVERAGE-BANDWIDTH=6457000,CODECS="mp4a.40.2,avc1.640028",RESOLUTION=1920x1080,FRAME-RATE=25
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000-video_track=6000000.m3u8?vbegin=1670070300
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=107000,AVERAGE-BANDWIDTH=97000,CODECS="mp4a.40.2"
+https://laligatech-live-usp.akamaized.net/live/linea03/linea03.isml/hdntl=exp=1670157794~acl=%2f*~data=hdntl~hmac=1d3f0b194a6d62035f8db7de4820bf83f1ba2c6ef7838461bc2cc1d464b3518a/linea03-audio_track_0_0_spa=96000.m3u8?vbegin=1670070300
