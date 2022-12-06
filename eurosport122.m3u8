@@ -1,0 +1,15 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=857408,RESOLUTION=640x360,FRAME-RATE=25.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/02_1p2.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=458418,RESOLUTION=416x234,FRAME-RATE=25.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/01_1p2.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1419364,RESOLUTION=768x432,FRAME-RATE=25.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/03_1p2.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2093712,RESOLUTION=960x540,FRAME-RATE=25.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/04_1p2.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3712821,RESOLUTION=1280x720,FRAME-RATE=50.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/05_1p2.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7084561,RESOLUTION=1920x1080,FRAME-RATE=50.000
+https://streamco-media-fwc2022-matchcast.akamaized.net/Content/HLS_HLS/Live/channel(ul-dla-spa-matchb)/hdntl=exp=1670350315~acl=%2f*~data=hdntl~hmac=092719d738a75d82e96e32d73f9c55fc291df996fd26cc4123c0e4f30535651e/06_1p2.m3u8
