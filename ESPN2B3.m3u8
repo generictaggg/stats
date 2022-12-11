@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-STREAM-INF:BANDWIDTH=555978,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=480x270
+https://streamamg-liver01.akamaized.net/hls/live/2040002/eve/eve_1/hdntl=exp=1670854867~acl=%2f*~data=hdntl~hmac=47831fd5dae615cc3f4649fcc820a81e44318413aaf66e55e87753ee6e5138aa/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1584714,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=853x480
+https://streamamg-liver01.akamaized.net/hls/live/2040002/eve/eve_2/hdntl=exp=1670854867~acl=%2f*~data=hdntl~hmac=47831fd5dae615cc3f4649fcc820a81e44318413aaf66e55e87753ee6e5138aa/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2662080,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720
+https://streamamg-liver01.akamaized.net/hls/live/2040002/eve/eve_3/hdntl=exp=1670854867~acl=%2f*~data=hdntl~hmac=47831fd5dae615cc3f4649fcc820a81e44318413aaf66e55e87753ee6e5138aa/chunklist.m3u8
+
