@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-STREAM-INF:BANDWIDTH=533669,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=480x270
+https://streamamg-liver01.akamaized.net/hls/live/2039999/int/int_1/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1573434,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=853x480
+https://streamamg-liver01.akamaized.net/hls/live/2039999/int/int_2/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2664085,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720
+https://streamamg-liver01.akamaized.net/hls/live/2039999/int/int_3/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=546954,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=480x270
+..https://streamamg-liver01.akamaized.net/hls/live/2039999-b/int/int_1/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2784280,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720
+https://streamamg-liver01.akamaized.net/hls/live/2039999-b/int/int_3/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1560901,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=853x480
+https://streamamg-liver01.akamaized.net/hls/live/2039999-b/int/int_2/hdntl=exp=1671279861~acl=%2f*~data=hdntl~hmac=d9f2958c5af4ab716036453a5bd4c86327c4afbde13820ff4babcadd2afaa1de/chunklist.m3u8
