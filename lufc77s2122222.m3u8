@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=1680184,AVERAGE-BANDWIDTH=1550230,RESOLUTION=640x360,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_5.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1993464,AVERAGE-BANDWIDTH=1831830,RESOLUTION=960x540,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_4.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2620024,AVERAGE-BANDWIDTH=2395030,RESOLUTION=1280x720,FRAME-RATE=25.000,CODECS="avc1.640029,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_3.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=4090957,AVERAGE-BANDWIDTH=3717212,RESOLUTION=1280x720,FRAME-RATE=50.000,CODECS="avc1.640029,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_2.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=6844380,AVERAGE-BANDWIDTH=6192194,RESOLUTION=1920x1080,FRAME-RATE=50.000,CODECS="avc1.64002A,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_1.m3u8
+#EXT-X-IMAGE-STREAM-INF:BANDWIDTH=180673,RESOLUTION=640x360,CODECS="jpeg",URI="https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_68.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=96000,CODECS="avc1.42C01E",RESOLUTION=416x234,URI="https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_57.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="Spanish",LANGUAGE="spa",DEFAULT=NO,AUTOSELECT=NO,URI="https://eurosport-live-prod.akamai.prod-live.h264.io/primary/1/f5dca3572b154c049b2abb48fb57ffa4/hdntl=exp=1678677675~acl=/primary/1/f5dca3572b154c049b2abb48fb57ffa4/*~data=hdntl~hmac=59811757b27f8845cac94f208d7e5173cbce75ed117f131b50a70208e718a31d/start/1678621506/index_21_0.m3u8"
