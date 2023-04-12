@@ -1,0 +1,15 @@
+#EXTM3U
+#EXT-X-VERSION:3
+## Created with Unified Streaming Platform (version=1.11.14-26090)
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=457000,AVERAGE-BANDWIDTH=415000,CODECS="mp4a.40.2,avc1.4D4015",RESOLUTION=426x240,FRAME-RATE=25
+https://laligatech-live-usp-msh.akamaized.net:443/live/linea02/linea02.isml/hdntl=exp=1681406157~acl=%2f*~data=hdntl~hmac=139740c2125a603b8bcf7ea2d0d588d9b4c892b5d01862146e673028f6461ccb/linea02-audio_eng=96000-video=300000.m3u8?vbegin=1681318500
+#EXT-X-STREAM-INF:BANDWIDTH=923000,AVERAGE-BANDWIDTH=839000,CODECS="mp4a.40.2,avc1.4D401E",RESOLUTION=768x432,FRAME-RATE=25
+https://laligatech-live-usp-msh.akamaized.net:443/live/linea02/linea02.isml/hdntl=exp=1681406157~acl=%2f*~data=hdntl~hmac=139740c2125a603b8bcf7ea2d0d588d9b4c892b5d01862146e673028f6461ccb/linea02-audio_eng=96000-video=700000.m3u8?vbegin=1681318500
+#EXT-X-STREAM-INF:BANDWIDTH=1273000,AVERAGE-BANDWIDTH=1157000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=768x432,FRAME-RATE=25
+https://laligatech-live-usp-msh.akamaized.net:443/live/linea02/linea02.isml/hdntl=exp=1681406157~acl=%2f*~data=hdntl~hmac=139740c2125a603b8bcf7ea2d0d588d9b4c892b5d01862146e673028f6461ccb/linea02-audio_eng=96000-video=1000000.m3u8?vbegin=1681318500
+#EXT-X-STREAM-INF:BANDWIDTH=3022000,AVERAGE-BANDWIDTH=2747000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=960x540,FRAME-RATE=25
+https://laligatech-live-usp-msh.akamaized.net:443/live/linea02/linea02.isml/hdntl=exp=1681406157~acl=%2f*~data=hdntl~hmac=139740c2125a603b8bcf7ea2d0d588d9b4c892b5d01862146e673028f6461ccb/linea02-audio_eng=96000-video=2500000.m3u8?vbegin=1681318500
+#EXT-X-STREAM-INF:BANDWIDTH=4771000,AVERAGE-BANDWIDTH=4337000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=1280x720,FRAME-RATE=25
+https://laligatech-live-usp-msh.akamaized.net:443/live/linea02/linea02.isml/hdntl=exp=1681406157~acl=%2f*~data=hdntl~hmac=139740c2125a603b8bcf7ea2d0d588d9b4c892b5d01862146e673028f6461ccb/linea02-audio_eng=96000-video=4000000.m3u8?vbegin=1681318500
