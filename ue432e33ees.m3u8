@@ -1,0 +1,24 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=353254,AVERAGE-BANDWIDTH=353254,RESOLUTION=416x234,FRAME-RATE=25.000,CODECS="avc1.42C01E,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_53.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=480739,AVERAGE-BANDWIDTH=472018,RESOLUTION=416x234,FRAME-RATE=25.000,CODECS="avc1.4D401F,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_54.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=701043,AVERAGE-BANDWIDTH=670054,RESOLUTION=640x360,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_7.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1210123,AVERAGE-BANDWIDTH=1127654,RESOLUTION=640x360,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_6.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1680043,AVERAGE-BANDWIDTH=1550054,RESOLUTION=640x360,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_5.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1993323,AVERAGE-BANDWIDTH=1831654,RESOLUTION=960x540,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_4.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2619883,AVERAGE-BANDWIDTH=2394854,RESOLUTION=1280x720,FRAME-RATE=25.000,CODECS="avc1.640029,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_3.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=4090816,AVERAGE-BANDWIDTH=3717036,RESOLUTION=1280x720,FRAME-RATE=50.000,CODECS="avc1.640029,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_2.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=6844239,AVERAGE-BANDWIDTH=6192018,RESOLUTION=1920x1080,FRAME-RATE=50.000,CODECS="avc1.64002A,mp4a.40.2",AUDIO="audio_0"
+https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_1.m3u8
+#EXT-X-IMAGE-STREAM-INF:BANDWIDTH=180673,RESOLUTION=640x360,CODECS="jpeg",URI="https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_67.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=96000,CODECS="avc1.42C01E",RESOLUTION=416x234,URI="https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_55.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="Ambient Sound",LANGUAGE="qis",DEFAULT=YES,AUTOSELECT=YES,URI="https://dplus-eu-cloudfront.prod-live.h264.io/primary/3/2b057b6643ef44ef822d006dca1e42ca/x-discovery-token=Expires=1685267749&KeyName=primary&Signature=F6jYxRcgLummC3L5yz9owI3zGtA/start/1685213101/index_11_0.m3u8"
