@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-VERSION:4
+
+
+#EXT-X-STREAM-INF:BANDWIDTH=3500000,CODECS="avc1.640028,mp4a.40.2",RESOLUTION=1920x1080,FRAME-RATE=25.000
+https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/1080p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/prog_index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1500000,CODECS="avc1.64001e,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=25.000
+https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/480p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/prog_index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=25.000
+https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/720p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/prog_index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=750000,CODECS="avc1.64001e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25.000
+https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/360p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/prog_index.m3u8
+
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=3500000,CODECS="avc1.640028",RESOLUTION=https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/1920x1080,URI="1080p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/iframe_prog_index.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=1500000,CODECS="avc1.64001e",RESOLUTION=https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/854x480,URI="480p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/iframe_prog_index.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=2500000,CODECS="avc1.4d401f",RESOLUTION=https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/1280x720,URI="720p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/iframe_prog_index.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=750000,CODECS="avc1.64001e",RESOLUTION=https://streamamg-fcbar01.akamaized.net/hls/live/2040130/0_fcq6zq7g/640x360,URI="360p/hdntl=exp=1686106123~acl=%2f*~data=hdntl~hmac=af137649f206c533ba45cd6bf33867faa2885f415e12a48a6f68402e7ec165c5/iframe_prog_index.m3u8"
