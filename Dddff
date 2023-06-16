@@ -1,0 +1,73 @@
+import requests
+
+headers = {
+
+    'authority': 'drm.gateway.indazn.com',
+
+    'accept': '*/*',
+
+    'accept-language': 'es-ES,es;q=0.9',
+
+    'authorization': 'Bearer eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6IjJXZlVweldreUxEcS1aOXkyRG1Yb0VwNXM3SHBYd3FnZGluallsS3c5NWsifQ.eyJ1c2VyIjoiMGVjZTIxNzEtOTZmZS00NGE1LWEzNjgtMWUwMWM3MDkwMzNhIiwiaXNzdWVkIjoxNjg2OTM1MzI5LCJ1c2Vyc3RhdHVzIjoiQWN0aXZlR3JhY2UiLCJzb3VyY2VUeXBlIjoiIiwicHJvZHVjdFN0YXR1cyI6eyJEQVpOIjoiQWN0aXZlR3JhY2UiLCJORkwiOiJQYXJ0aWFsIn0sInZpZXdlcklkIjoiMWUwMWM3MDkwMzNhIiwiY291bnRyeSI6ImVzIiwiY29udGVudENvdW50cnkiOiJlcyIsInVzZXJUeXBlIjozLCJkZXZpY2VJZCI6IjBlY2UyMTcxLTk2ZmUtNDRhNS1hMzY4LTFlMDFjNzA5MDMzYS0wMDVkNzNiNmE0IiwiaXNEZXZpY2VQbGF5YWJsZSI6dHJ1ZSwicGxheWFibGVFbGlnaWJpbGl0eVN0YXR1cyI6IlBMQVlBQkxFIiwiY2FucmVkZWVtZ2MiOiJFbmFibGVkIiwibXB4IjoiZXlKaGJHY2lPaUpTVXpVeE1pSjkuZXlKemRXSWlPaUp3WjJ4ekxYQnljeTEwY25WemRHVmtMekJsWTJVeU1UY3hMVGsyWm1VdE5EUmhOUzFoTXpZNExURmxNREZqTnpBNU1ETXpZU0lzSW1semN5STZJakVpTENKbGVIQWlPakUyT0RZNU5ESTFNamtzSW1saGRDSTZNVFk0Tmprek5UTXlPVEF6TUN3aWFuUnBJam9pWldRM1lqZGlaakl0T1RSaU9DMDBOVGhsTFdGa01qRXRaVEpsWWprMlltTXhOMlkySWl3aVpHbGtJam9pY0dkc2N5MXdjbk10ZEhKMWMzUmxaQ0lzSW5WdWJTSTZJakJsWTJVeU1UY3hMVGsyWm1VdE5EUmhOUzFoTXpZNExURmxNREZqTnpBNU1ETXpZU0lzSW1OMGVDSTZJbnRjSW5WelpYSk9ZVzFsWENJNlhDSXdaV05sTWpFM01TMDVObVpsTFRRMFlUVXRZVE0yT0MweFpUQXhZemN3T1RBek0yRmNJaXhjSW1GMGRISnBZblYwWlhOY0lqcDdYQ0p6ZFdKelkzSnBjSFJwYjI1TVpYWmxiRndpT2x3aWMzUmhibVJoY21SY0luMTlYRzRpTENKdmFXUWlPaUl5TnpBMU5UZ3pPRE14SW4wLkZvNmVaZUY0RXdXVlRWc00tQWhWc1lpS1FMUVNSTzdqSmRDS0lBN2d2dkI3UEg0N3BPMThqY3Zqb1FHeGNxYnRYWE5HbVJJbDYyNHJ0dm1WNE5HZ2wyb05hZDdaQzJZU1dBc1NCTDd6ODg2VmNIc25xWS1IMG9RalFkZE5zWVYxNzkyWDFsbmIyOUdaVXZLTVUwNGgwMW50T05FcG9sZ1dhOVlfWlpSNkUwUFlmOHV1NGw5R0F1YXVqdUY2YXFaSm9OY1NvbTdoVU40d1E4ektyczAteHNSeWFVenc5LXRKMGs2Wm5TekpXT3J2WE1KTHplNHZJaUlGSWliVkoyamJCRnp0OUc5RmNIYU54WURuZHdnVnUzczhPSmJ6NmJnNFJJT2hTeFlKek5pRmd1c09LaFNPa2VjbHhjSGJPMWF3QXF3Y2V6ZHZjVUM2Z1ZHM0VkcHA0ZyIsImp0aSI6ImQ3MmI4MzRmLTFjMDItNGJhMy04NzcyLTM4MzNlZTIwZjVhNiIsImlkcFR5cGUiOiJpZHAtcGFzc3dvcmQiLCJwcm92aWRlck5hbWUiOiJkYXpuIiwicHJvdmlkZXJDdXN0b21lcklkIjoiNDM0OTg5YWMtNzQxOS00ZDY3LTgzYWEtM2M0MjQ1NTY2OTNiIiwiZW50aXRsZW1lbnRzIjp7ImVudGl0bGVtZW50U2V0cyI6W3siaWQiOiJ0aWVyX2dvbGRfZXMiLCJwcm9kdWN0VHlwZSI6InRpZXIiLCJlbnRpdGxlbWVudHMiOlsiZW50aXRsZW1lbnRfYWxsb3dfd2F0Y2hfY29uY3VycmVuY3lfd2l0aF9zaW5nbGVfbG9jYXRpb24iLCJlbnRpdGxlbWVudF9tdWx0aXBsZV9kZXZpY2VzXzMiLCJlbnRpdGxlbWVudF9hbGxvd19jYXN0aW5nIiwiZV9lc190b3RhbCIsImVfZXNfbGFsaWdhIiwiZV9lc19lc3NlbnRpYWwiLCJlX2VzX3RvcDMiLCJlX2VzX3ZpY3RvcmlhIiwiYmFzZV9kYXpuX2NvbnRlbnQiXX1dLCJmZWF0dXJlcyI6eyJERVZJQ0UiOnsiYWNjZXNzX2RldmljZSI6ImFueSIsIm1heF9yZWdpc3RlcmVkX2RldmljZXMiOjN9LCJDT05DVVJSRU5DWSI6eyJtYXhfZGV2aWNlcyI6MiwibWF4X2lwcyI6MX0sIkNBU1RJTkciOnRydWV9fSwiZXhwIjoxNjg2OTQyNTI5LCJpc3MiOiJodHRwczovL2F1dGguYXIuaW5kYXpuLmNvbSJ9.D_DdEnGUOLDKLRZHkNNjFj3lc1l1Jp8atJwukndhMFiCMC_-xBaPQ4yt_5SDesaMA4JQYM9u26sR4t5hdkmLvPjq2g3QbbPHw68txFIZwVYIWoBetIL06AjZk2FgzptkSQZRA7DA9l_ue_bvjbl_4kdf43rC-eo442fpMt3JQy9Gq3aAuHucmq1U7z0GwA9v83xi4mOcrxDue3ZUZAyA_5aFe1ThNPwMxffhXXQvr_kTqbtaRzst87LTwjbjaLGAsN9ZKQPOWxPYB3YpN47XePk5quU5Q_m_njBEiGnjNlrDSTeT38gIWMvt2-DCS_0albAAmfeI1ovwFp-jNzVrfw',
+
+    'content-type': 'application/octet-stream',
+
+    'origin': 'https://www.dazn.com',
+
+    'referer': 'https://www.dazn.com/',
+
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+
+    'sec-ch-ua-mobile': '?0',
+
+    'sec-ch-ua-platform': '"Linux"',
+
+    'sec-fetch-dest': 'empty',
+
+    'sec-fetch-mode': 'cors',
+
+    'sec-fetch-site': 'cross-site',
+
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+
+    'x-session-id': 'c54680ea-8256-41ad-a5ec-7b0319b65968',
+
+}
+
+params = {
+
+    'legacyContentId': 'prod-live1',
+
+    'contentId': 'bxtrdcqjot9d1lzdniy28v630',
+
+    'platform': 'web',
+
+    'manufacturer': 'unknown',
+
+    'model': 'N/A',
+
+    'appVersion': '9.29.0',
+
+    'uid': '0ece2171-96fe-44a5-a368-1e01c709033a',
+
+    'accountStatus': 'ActiveGrace',
+
+    'assetId': 'oua8e7k5ofaa1rt0u6t8mo009',
+
+    'aexp': '1687078620000',
+
+    'tid': '52103025-ccdb-4e0d-ae41-4091242e971c',
+
+    'uexp': '1687023331895',
+
+    'mediaType': 'live',
+
+    'mediaId': 'bxtrdcqjot9d1lzdniy28v630',
+
+    'hash': '983f7205f4c5f58bcf095d9c26f5f21d0eaba2e2e008c96475a8014d528ba380',
+
+}
+
+data = '\b\x04'
+
+response = requests.post('https://drm.gateway.indazn.com/widevine/v1/license', params=params, headers=headers, data=data)
