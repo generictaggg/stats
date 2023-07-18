@@ -1,0 +1,6 @@
+#EXTM3U
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=764000,CODECS="avc1.4d001f,mp4a.40.2",RESOLUTION=640x360
+https://streamamg-sevil01.akamaized.net/hls/live/2039253/0_wzckw85c/hdntl=exp=1689784183~acl=%2f*~data=hdntl~hmac=f46008ebd392d4fcfd246e1fae3af36fd0dcd953c6f78b4d453c20c45723b017/bitrate_1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=364000,CODECS="avc1.4d001f,mp4a.40.2",RESOLUTION=320x180
+https://streamamg-sevil01.akamaized.net/hls/live/2039253/0_wzckw85c/hdntl=exp=1689784183~acl=%2f*~data=hdntl~hmac=f46008ebd392d4fcfd246e1fae3af36fd0dcd953c6f78b4d453c20c45723b017/bitrate_2.m3u8
