@@ -1,0 +1,50 @@
+
+<html>
+	<head>
+<!-- Inserted by miarroba -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T2VG59');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7294310421616689" crossorigin="anonymous"></script>
+<!-- Inserted by miarroba -->
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="referrer" content="no-referrer">
+		<meta name="theme-color" content="black">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+	</head>
+	<body bgcolor="black" style="margin:0; overflow:hidden">
+<!-- Inserted by miarroba -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Inserted by miarroba -->
+		<script type="text/javascript" src="//betzapdoson.com/5/4324606" async data-cfasync="false"></script>
+		<script disable-devtool-auto src="//fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>		<script src="//cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js"></script>
+		<script src="//cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js"></script>
+		<div id="player"></div>
+    <script>
+      var str = window.atob("Ly9kc2gtbTAwOS1saXZlLWFrYS1jYW5hbHBsdXMuYWthbWFpemVkLm5ldC9saXZlL2Rpc2svY2FuYWxwbHVzc3BvcnQtaGQvZGFzaC1maGQvY2FuYWxwbHVzc3BvcnQtaGQubXBk");
+      var player = new Clappr.Player({
+        source: str,
+        parentId: "#player",
+        plugins: [LevelSelector, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback],
+        events: {onReady: function() {var plugin = this.getPlugin("click_to_pause"); plugin && plugin.disable();},},
+        height: "100%",
+        width: "100%",
+        shakaConfiguration: {
+          drm: {
+            clearKeys: {
+              "26eecdc7cad4448c84a0627d0a244647": "232bbb160c70c2b16cd55069c98708c8",
+              "456cf7f88017496992adaf97ba5095c2": "080b272fc25494905aac96b361e05335",
+              "8ee5cfc5482f4f7faf6e008c9f26e09e": "d0b6af499215dd20d5255b047c74427d",
+              "085b766fd018449a8474fd1ead23111a": "d0c810b972cb2cdf3fa784264a024194"
+            }
+          },
+        },
+      });
+    </script>
+  <!-- Inserted by miarroba -->
+</script></noframes></noembed></noscript><script type="text/javascript" src="https://hosting.miarroba.info/?__muid=ac0b429ef2ac326f62aeee91524fd027c2215cf4&amp;h=2125677&amp;t=1695454016&amp;k=bb6b46ae14ec28010aa111248861b29c"></script><noscript><img alt="beacon" border="0" width="1" height="1" src="https://hosting.miarroba.info/?__muid=ac0b429ef2ac326f62aeee91524fd027c2215cf4&amp;h=2125677&amp;t=1695454016&amp;k=bb6b46ae14ec28010aa111248861b29c&amp;img=1" /></noscript>
+<!-- Inserted by miarroba -->
+</body>
+  </head>
+</html>
