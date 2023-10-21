@@ -1,0 +1,6 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=2621027,AVERAGE-BANDWIDTH=2396285,RESOLUTION=1280x720,FRAME-RATE=25.000,CODECS="avc1.640029,mp4a.40.2",AUDIO="audio_0"
+https://eurosport-live-prod.akamai.prod-live.h264.io/primary/2/50dfb1754494499cb56679d6322f4e2a/hdntl=exp=1697958114~acl=/primary/2/50dfb1754494499cb56679d6322f4e2a/*~data=hdntl~hmac=206a4eb2b95f737783269533aa3ffac9e9a6b9c0aca7ccbfd4ae52358bbe1769/start/1697903999/index_3.m3u8
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="Spanish",LANGUAGE="spa",DEFAULT=YES,AUTOSELECT=YES,URI="https://eurosport-live-prod.akamai.prod-live.h264.io/primary/2/50dfb1754494499cb56679d6322f4e2a/hdntl=exp=1697958114~acl=/primary/2/50dfb1754494499cb56679d6322f4e2a/*~data=hdntl~hmac=206a4eb2b95f737783269533aa3ffac9e9a6b9c0aca7ccbfd4ae52358bbe1769/start/1697903999/index_21_0.m3u8"
